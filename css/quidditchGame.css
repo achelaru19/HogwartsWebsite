@@ -1,0 +1,64 @@
+
+#field{
+	background-image: url(../img/quidditch.png);
+	background-position: center; 
+	float: left;
+}
+
+#snitch{
+	position: relative;
+	max-width: 375px;
+	max-height: 375px;
+	left: 250px;
+	top: 250px;
+}
+
+#bottone{
+  background: #120a80;
+  background-image: -webkit-linear-gradient(top, #120a80, #93bcdb);
+  background-image: -moz-linear-gradient(top, #120a80, #93bcdb);
+  background-image: -ms-linear-gradient(top, #120a80, #93bcdb);
+  background-image: -o-linear-gradient(top, #120a80, #93bcdb);
+  background-image: linear-gradient(to bottom, #120a80, #93bcdb);
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  font-family: Arial;
+  color: #fafafa;
+  font-size: 18px;
+  padding: 6px 10px 6px 10px;
+  border: solid #663f3f 1px;
+  text-decoration: none;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+#score{
+	width: 50px;
+	height: 50px;
+	border-radius: 49px;
+	text-align: center;
+	font-size: 1.3em;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+#buttons{
+	width: 25%;
+	float: left;
+}
+
+#side_right{
+	width: 60%;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 230px;
+
+}
+
+
+.quidditchRules{
+	list-style-type: circle;
+	border: none;
+	margin-left: 15px;
+}

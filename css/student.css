@@ -1,0 +1,116 @@
+th, td {
+   text-align: center;
+   color: black;
+  }
+
+
+table, th, td{
+  border-collapse: collapse;
+  border-style: solid; 
+}
+
+fieldset{
+  border-radius: 7px;
+  border-style: solid;
+  border-color: black; 
+  width: 97%;
+}
+
+legend{
+  font-weight: bold;
+}
+
+canvas{
+  width: 325px;
+  height: auto;
+}
+
+input.password{
+  width: 150px;
+}
+
+#p_house::first-letter{
+  font-family: 'GriffinTwoPlain';
+  font-size: 4em;
+  color:#D4AF37;
+}
+
+#grades{
+  width: 100%;
+}
+
+
+#student_name{
+  font-weight: bold;
+  color: #D4AF37;
+  font-size: 1.5em;
+  padding: 1.8%;
+}
+
+#student_picture{
+  width: 125px;
+  height: 125px;
+  margin-top: 5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#subject_tables{
+  text-align: center;
+}
+
+
+#HouseInfo{
+  width: 28%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+#house_description{
+  width: 70%;
+  text-align: inherit;
+  float: left;
+}
+
+
+#HouseShield{
+  width: 210px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#canvas{
+  width: 35%;
+  height: auto;
+  float: left;
+  margin-left: 30px;
+
+}
+
+#homepage_left{
+  width: 60%;
+  float: left;
+}
+
+#input_div{
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 40%;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.subject{
+  width: 24%;
+  display: inline-table;
+  margin: 5px;
+  text-align: center;
+}
+
+table.schedule td{
+  width: calc(100% / 6);
+}

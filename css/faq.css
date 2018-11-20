@@ -1,0 +1,25 @@
+
+@font-face{
+  font-family: 'Lora';
+  src: url("./fonts/Lora.ttf");
+}
+
+body{
+	background-image: url("../img/faq-background.png");
+	text-align: justify;
+	font-family: 'Lora', Helvetica, sans-serif;
+}
+
+#main_area{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	background-color: rgba(256,256,256,0.8);
+	border-radius: 20px;
+	font-size: 1.25em;
+}
+
+#faq{
+	padding: 5px 30px 10px 30px;
+}
